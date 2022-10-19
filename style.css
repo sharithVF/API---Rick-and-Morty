@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #000000;
+}
+
+header {
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+}
+
+.rickGif {
+    width: 200px;
+}
+
+.divImg {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.logo {
+    width: 900px;
+}
+
+.divImg2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.rickGif2 {
+    width: 200px;
+}
+
+main {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    background-color: #000000;
+}
+
+.divInput {
+    display: grid;
+    justify-content: center;
+}
+
+#search {
+    width: 55rem;
+    height: 4rem;
+    margin-bottom: 3rem;
+    padding: 2rem;
+    border-radius: 1.4rem;
+    font-size: 1.3rem;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    background-color: #94C2CF;
+    box-shadow: 6px 6px 2px 0px #7de65f;
+}
+
+#container {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 50% 50%;
+}
+
+.divCards {
+    width: 40rem;
+    height: 22rem;
+    margin: 2rem;
+    padding: 1.5rem;
+    display: flex;
+    border-radius: 1.4rem;
+    background-color: #94C2CF;
+    text-align: center;
+}
+
+.divTexts {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.characterName {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.status {
+    font-size: 1.5rem;
+    font-family: 'Inter', sans-serif;
+}
+
+footer {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+pFooter {
+    color: #ffff;
+    font-size: 1.5rem;
+    font-family: 'Inter', sans-serif;
+}
